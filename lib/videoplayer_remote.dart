@@ -33,10 +33,12 @@ class _VideoPlayerRemoteState extends State<VideoPlayerRemote> {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: avoid_unnecessary_containers
     return Container(
       child: Column(
         children: <Widget>[
           Flexible(
+            // ignore: avoid_unnecessary_containers
             child: Container(
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height,
