@@ -33,12 +33,12 @@ class _VideoPlayerRemoteState extends State<VideoPlayerRemote> {
 
   @override
   Widget build(BuildContext context) {
-    // ignore: avoid_unnecessary_containers
+    // ignore: avoid_unnecessary_containers, sized_box_for_whitespace
     return Container(
       child: Column(
         children: <Widget>[
           Flexible(
-            // ignore: avoid_unnecessary_containers
+            // ignore: avoid_unnecessary_containers, sized_box_for_whitespace
             child: Container(
               width: MediaQuery.of(context).size.width,
               height: MediaQuery.of(context).size.height,
