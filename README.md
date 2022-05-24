@@ -1,16 +1,12 @@
 # video_shorts
 
-A new Flutter project.
 
-## Getting Started
+https://user-images.githubusercontent.com/77227281/170102020-1dba223a-7ec9-45b1-83f9-a735003041fb.mp4
 
-This project is a starting point for a Flutter application.
+This app is album of short videos like YouTube shorts,instagram reels using video_player package in flutter in page view format.
 
-A few resources to get you started if this is your first Flutter project:
+# After downloading the project just enter this command to get all the packages:
+command - flutter pub get
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Run the project using this command:
+command - flutter run
