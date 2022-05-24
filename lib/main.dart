@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Shorts',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.teal,
@@ -34,12 +34,12 @@ class _MyHomePageState extends State<MyHomePage> {
   static dynamic currentPageValue = 0.0;
 
   List pageViewItem = [
+    page('https://filesamples.com/samples/video/mp4/sample_640x360.mp4'),
+    page('http://techslides.com/demos/sample-videos/small.mp4'),
     page(
         'https://archive.org/download/SampleVideo1280x7205mb/SampleVideo_1280x720_5mb.mp4'),
     page(
         'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'),
-    page('https://filesamples.com/samples/video/mp4/sample_640x360.mp4'),
-    page('http://techslides.com/demos/sample-videos/small.mp4'),
     page(
         'https://archive.org/download/SampleVideo1280x7205mb/SampleVideo_1280x720_5mb.mp4'),
     page(
