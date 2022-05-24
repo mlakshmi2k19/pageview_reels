@@ -99,6 +99,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 Widget page(String url) {
+  // ignore: avoid_unnecessary_containers
   return Container(
     width: double.infinity,
     height: double.infinity,
